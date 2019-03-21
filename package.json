@@ -1,0 +1,16 @@
+{
+  "name": "node-dic-cli",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "dict": "bin/dict"
+  },
+  "scripts": {
+    "bin-permission": "chmod +x bin/dict"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "eslint": "^5.15.3"
+  }
+}
