@@ -1,3 +1,3 @@
-const print = require("../frame-print");
+const print = require("mwafak-frame-print");
 
 print("Hello Npm!");
