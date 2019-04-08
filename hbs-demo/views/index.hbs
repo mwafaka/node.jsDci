@@ -1,2 +1,28 @@
 <h1>{{title}}</h1>
 <p>Welcome to {{title}}</p>
+
+<p>
+    {{# if condition}}
+    condition is true
+    {{else}}
+    condition is false
+    {{/if}}
+</p>
+
+<p>
+    {{#each list}}
+    <h4>Fruits</h4>
+    {{#each this.fruits}}
+    <p>{{this}}</p>
+    <hr>
+    {{/each}}
+    <h4>Veges</h4>
+    {{#each this.veges}}
+    <p>{{this}}</p>
+    <hr>
+    {{/each}}
+    {{/each}}
+
+</p>
+{{lookup numbers 4 }}
+{{!-- {{addFive 5}} --}}
