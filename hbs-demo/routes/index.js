@@ -9,7 +9,7 @@ router.get("/", function(req, res, next) {
     numbers: [1, 2, 3, 4],
     list: [
       { fruits: ["Mango", "Apple", "Grapes"] },
-      { veges: ["Potato", "Avacado", "Onion"] }
+      { veges: ["Potato", "Avocado", "Onion"] }
     ]
   });
 });
